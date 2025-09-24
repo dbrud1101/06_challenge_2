@@ -5,7 +5,7 @@ static int duty_pct  = 50;
 void setup() {
   pinMode(LED_PIN, OUTPUT);
   digitalWrite(LED_PIN, HIGH);  
-
+}
 void set_period(int us) {                 // 100~10000 μs
   period_us = constrain(us, 100, 10000);
 }
